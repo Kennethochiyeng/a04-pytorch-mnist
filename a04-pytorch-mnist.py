@@ -5,6 +5,8 @@ from utils import get_mnist_data_loaders, DataLoaderProgress, NN_FC_CrossEntropy
 from fastprogress.fastprogress import master_bar, progress_bar
 import torch
 
+#check
+
 
 def train_one_epoch(dataloader, model, criterion, optimizer, device, mb):
 
